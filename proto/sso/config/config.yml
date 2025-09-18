@@ -1,0 +1,6 @@
+env: "local"
+POSTGRES_DSN: postgres://alex:pwd1234@localhost:5432/sso?sslmode=disable&x-migrations-table=migrations
+
+grpc:
+  port: 44044
+  timeout: 10h

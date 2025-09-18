@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  authdb: 
+    image: postgres:16
+    environment:
+      POSTGRES_USER: alex
+      POSTGRES_PASS: pwd1234
+      POSTRGRES_DB_NAME: sso
+    ports:
+      - "5432:5432"
